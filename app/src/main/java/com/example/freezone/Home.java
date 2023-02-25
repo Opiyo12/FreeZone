@@ -65,13 +65,13 @@ public class Home extends AppCompatActivity {
     }
             private void initData() {
         userlist= new ArrayList<>();
-//        userlist.add(new modalClass(R.drawable.oppo, "Oppo" ,"Price:UGX 550,000"));
-//        userlist.add(new modalClass(R.drawable.jumper, "Jumper" ,"Price:UGX 28,000"));
-//        userlist.add(new modalClass(R.drawable.spark, "Spark 7" ,"Price:UGX 420,000"));
-//        userlist.add(new modalClass(R.drawable.pc, "Hp Elite" ,"Price:UGX 850,000"));
-//        userlist.add(new modalClass(R.drawable.baby, "Baby's Wear" ,"Price:UGX 22,000"));
-//        userlist.add(new modalClass(R.drawable.phone1, "Samusung S7" ,"Price:UGX 350,000"));
-//        userlist.add(new modalClass(R.drawable.lsleve, "Long Sleve" ,"Price:UGX 30,000"));
+        userlist.add(new modalClass(R.drawable.oppo, "Oppo" ,"Price:UGX 550,000"));
+        userlist.add(new modalClass(R.drawable.jumper, "Jumper" ,"Price:UGX 28,000"));
+        userlist.add(new modalClass(R.drawable.spark, "Spark 7" ,"Price:UGX 420,000"));
+        userlist.add(new modalClass(R.drawable.pc, "Hp Elite" ,"Price:UGX 850,000"));
+        userlist.add(new modalClass(R.drawable.baby, "Baby's Wear" ,"Price:UGX 22,000"));
+        userlist.add(new modalClass(R.drawable.phone1, "Samusung S7" ,"Price:UGX 350,000"));
+        userlist.add(new modalClass(R.drawable.lsleve, "Long Sleve" ,"Price:UGX 30,000"));
 
           pre.child("product").addValueEventListener(new ValueEventListener() {
               @Override
